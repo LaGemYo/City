@@ -5,11 +5,13 @@
 }
 
 $mainBlack: #222;
-$mainGreen: #222;
-$mainWhite: #222;
-$mainGrey: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
 
 
 body {
   font-family: "Open Sans", sans-serif;
+  background: $mainWhite;
+  color: $mainBlack;
 }
