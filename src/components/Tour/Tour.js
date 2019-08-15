@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './tour.scss'
+import './tour.scss';
 
 export default class Tour extends Component {
     render() {
@@ -8,10 +8,20 @@ export default class Tour extends Component {
         return (
             <article className="tour">
                 <div className="img-container">
-                    <img src={img} alt="image of the tour"/>
+                    <img src={img} alt="image of the tour" />
                     <span className="close-btn">
-                        
+                        <i class="fas fa-window-close" />
                     </span>
+                </div>
+                <div className="tour-info">
+                    <h3>{city}</h3>
+                    <h3>{name}</h3>
+                    <h5>info{""}
+                        <span>
+                            <i className="fas fa-caret-square-down" />
+                        </span>
+                    </h5>
+                    <p>{info}</p>
                 </div>
             </article>
         )
